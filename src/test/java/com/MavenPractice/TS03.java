@@ -8,4 +8,9 @@ public void manju()
 {
 	System.out.println("---kiran kumar----");
 }
+@Test
+public void manju1()
+{
+	System.out.println("---kiran kumar naidu----");
+}
 }
