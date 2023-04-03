@@ -1,0 +1,12 @@
+<suite parallel="tests" name="Suite">
+<groups>
+<run>
+<include name="smoke"/>
+</run>
+</groups>
+  <test name="Test">
+    <classes>
+      <class name="com.MavenPractice.TS02"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

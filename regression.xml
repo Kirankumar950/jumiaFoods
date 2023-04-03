@@ -1,0 +1,12 @@
+<suite parallel="tests" name="Suite">
+<group>
+<run>
+<include name="regression"/>
+</run>
+</group>
+  <test name="Test">
+    <classes>
+      <class name="com.MavenPractice.TS02"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
