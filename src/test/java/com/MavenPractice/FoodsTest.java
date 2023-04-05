@@ -3,16 +3,15 @@ package com.MavenPractice;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-public class MsyScript 
+public class FoodsTest 
 {
 	@Test
-	public void ty()
+	public void menuList()
 	{
-		Reporter.log("Hello Kiran", true);
 		
+		Reporter.log("Masala Dosa",true);
 		
-		
+		System.out.println("Mushroom");
 		
 	}
-
 }

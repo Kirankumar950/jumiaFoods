@@ -2,7 +2,7 @@ package com.MavenPractice;
 
 import org.testng.annotations.Test;
 
-public class SeleniumSan 
+public class SeleniumSanTest 
 {
 	@Test
 	public void spiderBTM()
