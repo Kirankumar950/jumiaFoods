@@ -1,0 +1,16 @@
+
+<suite name="Suite">
+
+<groups>
+<run>
+<include name="smoke"/>
+<include name="regression"/>
+</run>
+</groups>
+  <test  name="Test">
+    <classes>
+      <class name="restaurantModule.RestaurantModule"/>
+      <class name="menuModule.MenuModule"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

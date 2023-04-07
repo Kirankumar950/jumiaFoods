@@ -1,0 +1,18 @@
+<suite thread-count="3" parallel="tests" name="Suite">
+  <test thread-count="3" parallel="tests" name="Test runner-1">
+    <classes>
+      <class name="ordermodule.OrderModule"/>
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="3" parallel="tests" name="Test runner-2">
+    <classes>
+      <class name="menuModule.MenuModule"/>
+    </classes>
+  </test> <!-- Test -->
+     <test thread-count="3" parallel="tests" name="Test runner-3">
+    <classes>
+ <class name="restaurantModule.RestaurantModule"/>
+     </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

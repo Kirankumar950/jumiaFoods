@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Suite]">
+  <test thread-count="3" parallel="tests" name="Test runner-1(failed)">
+    <classes>
+      <class name="ordermodule.OrderModule">
+        <methods>
+          <include name="orderModule"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configBS"/>
+          <include name="configBc"/>
+        </methods>
+      </class> <!-- ordermodule.OrderModule -->
+    </classes>
+  </test> <!-- Test runner-1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
